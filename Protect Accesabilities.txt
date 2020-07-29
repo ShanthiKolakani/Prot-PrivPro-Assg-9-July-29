@@ -1,0 +1,14 @@
+what is the scope of the Protectedinternal and PrivateProtected internal
+
+protected internal Accessibility Level:
+Access is limited to the current assembly or the derived types of the containing class. It means access is granted to any class which is derived from the containing class within or outside the current Assembly.
+
+Syntax:
+protected internal TypeName
+
+
+private protected Accessibility Level:
+Access is granted to the containing class and its derived types present in the current assembly. This modifier is valid in C# version 7.2 and later.
+
+Syntax:
+private protected TypeName
